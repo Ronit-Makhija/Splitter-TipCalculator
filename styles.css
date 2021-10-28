@@ -128,11 +128,16 @@ body{
 .ammount{
   color: hsl(172, 67%, 45%);
   margin-left: 45%;
+  background-color: blue;
 }
 
 .ammount2{
   color: hsl(172, 67%, 45%);
   margin-left: 54.7%;
+  background-color: yellow;
+}
+.details , .details2{
+  background-color: red;
 }
 
 .total-per-person{
@@ -204,7 +209,7 @@ body{
   }
 
   .details{
-    margin-right: 32%;
+    margin-right: 0;
   }
   .nop, p{
     display:inline-block;
@@ -213,5 +218,12 @@ body{
   .main{
     margin: 4.8% 0 0 0;
     width: 100%;
+  }
+
+  .ammount{
+    margin-left: 55%;
+  }
+  .ammount2{
+    margin-left: 62.5%;
   }
 }
