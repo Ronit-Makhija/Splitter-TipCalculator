@@ -197,4 +197,12 @@ body{
   .main{
     height: 800px;
   }
+  .tip-percent{
+    text-align: center;
+  }
+
+  .right{
+    margin-top: 20px;
+    width: 100%;
+  }
 }
