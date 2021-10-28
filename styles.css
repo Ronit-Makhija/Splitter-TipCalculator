@@ -99,7 +99,7 @@ body{
    padding: 5% 5% 5% 3%;
  }
 
- .details, .ammount, .details2{
+ .details, .ammount, .ammount2, .details2{
    display: inline-block;;
  }
 .tip-percent{
@@ -125,18 +125,18 @@ body{
   text-align: left;
 }
 
-.details{
-  margin-right: 35%;
-}
 .ammount{
   color: hsl(172, 67%, 45%);
+  margin-left: 45%;
+}
+
+.ammount2{
+  color: hsl(172, 67%, 45%);
+  margin-left: 54.7%;
 }
 
 .total-per-person{
   text-align: left;
-}
-.details2{
-  margin-right: 45%;
 }
 
 .buttonx{
@@ -165,18 +165,21 @@ body{
 
 .nop, p{
   display: inline-block;
+
 }
 .p1{
   font-size: 0.625rem;
   margin-left: 65%;
   font-weight: 700;
   color: red;
+
 }
 .p2{
   font-size: 0.625rem;
   margin-left: 37.6%;
   font-weight: 700;
   color: red;
+
 }
 
 .error{
@@ -203,11 +206,10 @@ body{
   .details{
     margin-right: 32%;
   }
-  
-.nop, p{
+  .nop, p{
     display:inline-block;
   }
-    
+
   .main{
     margin: 4.8% 0 0 0;
     width: 100%;
