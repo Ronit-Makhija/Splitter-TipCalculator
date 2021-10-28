@@ -1,13 +1,10 @@
 var array = [];
 var a = 0;
+
+
 $(".custom").click(function(){
   array.pop($(".button-n").html());
   $(".button-n").removeClass("button-click");
-  // let x = $(this).html();
-  // let y = x.slice(0,x.length - 1);
-  // array.push(y);
-  // console.log(array);
-
   a = 1;
 })
 
@@ -61,7 +58,6 @@ $(".cal").click(function(){
     $(".p1").html("");
     $(".p2").html("");
     var bill = $(".bill1").val();
-    //var tip = (bill * array[0]) / 100;
 
 
     if(a === 1){
@@ -71,8 +67,6 @@ $(".cal").click(function(){
     else{
       var tip = (bill * array[0]) / 100;
     }
-
-
 
 
     var numOfPerson = $(".input2").val();
