@@ -22,11 +22,7 @@ body{
   color: White;
 }
 
-#res, #res2{
-  width: 80%;
-  font-size: 1vw;
-}
-#res:hover, #res2:hover{
+.buttonx:hover{
   background-color: transparent;
   color: hsl(185, 41%, 84%);
   border: 2px solid hsl(185, 41%, 84%);
@@ -146,11 +142,12 @@ body{
 .buttonx{
   background-color: hsl(185, 41%, 84%);
   color: hsl(183, 100%, 15%);
-  width: 10%;
+  width: 90%;
   height: 30px;
   font-weight: 700;
   border: 0;
   border-radius: 3px;
+  font-size: 1rem;
 }
 
 .buttonr{
@@ -208,5 +205,10 @@ body{
   }
   .nop, p{
     display: block;
+  }
+
+  .main{
+    margin: 4.8% 0 0 0;
+    width: 100%;
   }
 }
