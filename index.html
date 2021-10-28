@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+
+  <img class="logo" src="images/logo.svg" alt="">
+
+  <div class="container-fluid">
+
+    <div class="row main">
+
+      <div class="col col-md-6 col-sm-12 left">
+
+        <div class="bill">
+          <h6 class="nop">Bill</h6><p class="p1"></p>
+            
+            <input src="images/icon-dollar.svg" class="common input1 bill1" type="text" placeholder="0" name="" value="">
+        </div>
+
+        <div class="tip-percent">
+          <h6>Select Tip %</h6>
+          <button class="button1 button-n buttonx"type="button" name="button">5%</button>
+          <button class="button1 button-n buttonx"type="button" name="button">10%</button>
+          <button class="button1 button-n buttonx"type="button" name="button">15%</button>
+          <button class="button1 button-n buttonx"type="button" name="button">25%</button>
+          <button class="button1 button-n buttonx"type="button" name="button">50%</button>
+          <input class="custom input1" type="text" placeholder="Custom" name="" value="">
+        </div>
+
+        <div class="num-of-people">
+          <h6 class="nop">Number Of People</h6><p class="p2"></p>
+            <!-- <span class="input-group-text" id="basic-addon1"></span> -->
+            <input class="common input1 input2"  type="text" placeholder="0" name="" value="">
+
+        </div>
+
+
+
+      </div>
+      <div class="col-6 right">
+        <div class="tip-per-person">
+          <div class="details">
+            <h6>Tip Amount<br><span>/person</span></h6>
+          </div>
+
+          <div class="ammount">
+            <h3 class="tip-ammount">$0.00</h3>
+          </div>
+        </div>
+        <div class="total-per-person">
+          <div class="details2">
+            <h6>Total<br><span>/person</span></h6>
+          </div>
+
+          <div class="ammount">
+            <h3 class="total-bill">$0.00</h3>
+          </div>
+        </div>
+        <div class="reset-button">
+          <button type="button" class="buttonr buttonx" id="res" name="button">Reset</button>
+          <button type="button" class="cal" id="res2" name="button">Calculate</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ronit-Makhija</a>.
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>
+
+
+
+<!-- Bill
+
+Select Tip %
+5%
+10%
+15%
+25%
+50%
+Custom
+
+Number of People
+
+Tip Amount
+/ person
+
+Total
+/ person
+
+Reset -->
