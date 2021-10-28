@@ -203,6 +203,11 @@ body{
   .details{
     margin-right: 32%;
   }
+  
+.nop, p{
+    display:inline-block;
+  }
+    
   .main{
     margin: 4.8% 0 0 0;
     width: 100%;
