@@ -5,82 +5,6 @@ body{
   font-family: 'Space Mono', monospace;
 }
 
-.bill1:focus, .input2:focus{
-  outline: none;
-  border-style: none;
-  border: 0px;
-}
-
-.button-n{
-  font-weight: 700;
-  width: 28%;
-  height: 40px;
-  margin-bottom: 10px;
-  border: 0;
-  border-radius: 3px;
-  background-color: hsl(183, 100%, 15%);
-  color: White;
-}
-
-.buttonx:hover{
-  background-color: transparent;
-  color: hsl(185, 41%, 84%);
-  border: 2px solid hsl(185, 41%, 84%);
-}
-
-.left h6{
-  font-size: 0.8rem;
-  text-align: left;
-  color: hsl(184, 14%, 56%);
-}
-
-.right h6{
-  font-size: 0.75rem;
-  text-align: left;
-  color: white;
-}
-
-.right span{
-  font-size: 0.625rem;
-  color: hsl(184, 14%, 56%);
-}
-
-.common{
-  background-color: hsl(189, 41%, 97%);
-  border: 0px;
-  text-align: right;
-  border-radius: 5px;
-  color: hsl(183, 100%, 15%);
-  width: 100%;
-  height: 35px;
-}
-
-
-.bill span{
-  background-image: url(images/icon-dollar.svg);
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-
-.bill{
-  text-align: left;
-}
-
-.num-of-people span{
-  background-image: url(images/icon-person.svg);
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
- .attribution {
-   font-size: 0.8125rem;
-   text-align: center;
-   margin-top: 3.8%;
- }
-
- .attribution a {
-   color: hsl(228, 45%, 44%);
- }
-
 .main{
   background-color: hsl(0, 0%, 100%);
   margin: 4.8% 0 0 21%;
@@ -89,83 +13,22 @@ body{
   padding: 2%;
   border-radius: 20px;
 }
- .left{
-   padding: 0 5% 0 0;
- }
 
- .right{
-   background-color: hsl(183, 100%, 15%);
-   border-radius: 15px;
-   padding: 5% 5% 5% 3%;
- }
+/* Left Section */
 
- .details, .ammount, .ammount2, .details2{
-   display: inline-block;;
- }
-.tip-percent{
-  padding: 0;
+.left{
+  padding: 0 5% 0 0;
+}
+
+.left h6{
+  font-size: 0.8rem;
   text-align: left;
-  margin-top: 6%;
-}
-.custom{
-  width: 28%;
-  height: 40px;
-  border: 0;
-  border-radius: 3px;
-  background-color: hsl(189, 41%, 97%);
+  color: hsl(184, 14%, 56%);
 }
 
-
-.num-of-people{
-  margin-top: 6%;
+/* Bill Section */
+.bill{
   text-align: left;
-}
-
-.tip-per-person{
-  text-align: left;
-}
-
-.ammount{
-  color: hsl(172, 67%, 45%);
-  margin-left: 45%;
-  background-color: blue;
-}
-
-.ammount2{
-  color: hsl(172, 67%, 45%);
-  margin-left: 54.7%;
-  background-color: yellow;
-}
-.details , .details2{
-  background-color: red;
-}
-
-.total-per-person{
-  text-align: left;
-}
-
-.buttonx{
-  background-color: hsl(185, 41%, 84%);
-  color: hsl(183, 100%, 15%);
-  width: 90%;
-  height: 30px;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3px;
-  font-size: 1rem;
-}
-
-.buttonr{
-  margin-top: 12%;
-}
-
-.cal{
-  margin-top: 5%;
-}
-
-.button-click{
-  background-color: hsl(185, 41%, 84%);
-  color: hsl(183, 100%, 15%);
 }
 
 .nop, p{
@@ -177,21 +40,154 @@ body{
   margin-left: 65%;
   font-weight: 700;
   color: red;
-
 }
+
+.bill-nop-common{
+  background-color: hsl(189, 41%, 97%);
+  border: 0;
+  text-align: right;
+  border-radius: 5px;
+  color: hsl(183, 100%, 15%);
+  width: 100%;
+  height: 35px;
+  outline-color: hsl(183, 100%, 15%);
+}
+/* End of bill section */
+
+/* Tip Section */
+.tip-percent{
+  padding: 0;
+  text-align: left;
+  margin-top: 6%;
+}
+
+.tip-buttons{
+  font-weight: 700;
+  width: 28%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 3px;
+  background-color: hsl(183, 100%, 15%);
+  color: White;
+}
+
+.custom-tip{
+  width: 28%;
+  height: 40px;
+  border: 0;
+  border-radius: 3px;
+  background-color: hsl(189, 41%, 97%);
+  outline-color: hsl(183, 100%, 15%);
+}
+/* End of Tip section */
+
+/* Number of people section */
+.num-of-people{
+  margin-top: 6%;
+  text-align: left;
+}
+
 .p2{
   font-size: 0.625rem;
   margin-left: 37.6%;
   font-weight: 700;
   color: red;
+}
+/* End of number of people section
+End of left section */
 
+/* Right Section */
+
+.right{
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 15px;
+  padding: 5% 5% 5% 3%;
+}
+
+.tip-per-person{
+  display: flex;
+  text-align: left;
+}
+
+.details, .ammount, .ammount2, .details2{
+  display: inline-block;;
+}
+
+.right span{
+  font-size: 0.625rem;
+  color: hsl(184, 14%, 56%);
+}
+
+.right h6{
+  font-size: 0.75rem;
+  text-align: left;
+  color: white;
+}
+
+h3{
+  align-self: flex-end;
+  text-align: right;
+  flex: 1;
+  color: hsl(172, 67%, 45%);
+}
+
+.total-per-person{
+  text-align: left;
+  display: flex;
+}
+
+.reset-button{
+  margin-top: 12%;
+}
+
+.calculate-button{
+  margin-top: 5%;
+}
+
+.rc-common-button{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  width: 100%;
+  height: 30px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.rc-common-button:hover{
+  background-color: transparent;
+  color: hsl(185, 41%, 84%);
+  border: 2px solid hsl(185, 41%, 84%);
+}
+/* End of right section
+End of main section */
+
+/* Attribution Section */
+ .attribution {
+   font-size: 0.8125rem;
+   text-align: center;
+   margin-top: 3.8%;
+ }
+ .attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+/* End of Attribution section */
+
+/* Extra Classses */
+
+.button-click{
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
 }
 
 .error{
   border: 1px solid red;
 }
+/* End of extra classes */
 
-
+/* Media Query */
 @media (max-width: 1080px){
   .container-fluid{
     height: 100%;
@@ -227,3 +223,4 @@ body{
     margin-left: 62.5%;
   }
 }
+/* End of Media Query */
